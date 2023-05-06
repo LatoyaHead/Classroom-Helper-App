@@ -1,10 +1,14 @@
-import Classroom from "./Classroom";
+import Classroom from "./components/Classroom";
+import LineLeader from './components/LineLeader' 
+import { Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <div>
+      <div>
       <Classroom />
-    </div>
+      <LineLeader/>
+    </div>    
   );
 }
 
