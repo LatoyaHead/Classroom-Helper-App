@@ -8,7 +8,7 @@ const Profiles = (props) => {
   const navigate = useNavigate()
   return(
     <div class='container' onClick={()=> navigate(props.url)}>
-      <img src={desk} class='desk'></img>
+      <img src={desk} class='desk' alt='desk'></img>
       <p class='desk1'>{props.title}</p>
     </div>
 )}
@@ -23,8 +23,8 @@ const profiles = [
     url: '/linemonitor'
   },
   {
-    title: 'Snack Helper',
-    url: '/snackhelper'
+    title: 'Errand Runner',
+    url: '/errandrunner'
   },
   {
     title: 'Work Monitor',
@@ -43,8 +43,8 @@ const profiles = [
     url: '/greeter'
   },
   {
-    title: 'Timer',
-    url: '/timer'
+    title: 'Lights',
+    url: '/lights'
   },
 ]
 const Classroom = () => {

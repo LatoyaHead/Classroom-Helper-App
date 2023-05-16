@@ -9,6 +9,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Classroom from './components/Classroom';
 import LineLeader from './components/LineLeader';
+import LineMonitor from './components/LineMonitor';
+import ErrandRunner from './components/ErrandRunner';
+import WorkMonitor from './components/WorkMonitor';
+import TicketHelper from './components/TicketHelper';
+import PaperPasser from './components/PaperPasser';
+import Greeter from './components/Greeter';
+import Lights from './components/Lights';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +25,35 @@ const router = createBrowserRouter([
   {
     path: "/lineleader",
     element: <LineLeader />
-  }
+  },
+  {
+    path: "/linemonitor",
+    element: <LineMonitor />
+  },
+  {
+    path: "/errandrunner",
+    element: <ErrandRunner />
+  },
+  {
+    path: "/workmonitor",
+    element: <WorkMonitor />
+  },
+  {
+    path: "/tickethelper",
+    element: <TicketHelper />
+  },
+  {
+    path: "/paperpasser",
+    element: <PaperPasser />
+  },
+  {
+    path: "/greeter",
+    element: <Greeter />
+  },
+  {
+    path: "/lights",
+    element: <Lights />
+  },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
