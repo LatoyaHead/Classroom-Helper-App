@@ -46,6 +46,7 @@ const profiles = [
     title: 'Lights',
     url: '/lights'
   },
+ 
 ]
 const Classroom = () => {
   return (
