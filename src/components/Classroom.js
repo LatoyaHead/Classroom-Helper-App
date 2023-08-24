@@ -52,7 +52,7 @@ const Classroom = () => {
   return (
     <div>
       <div class='header'>
-          <p><img src={apple} alt='apple'></img></p>
+          <p><img src={apple} alt='apple' class='apple'></img></p>
           <h1 class='name'>Mrs. Moore's<br/>Classroom Helpers</h1>
       </div>
       <div class='desk-container'>

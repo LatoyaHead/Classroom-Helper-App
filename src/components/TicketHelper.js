@@ -21,7 +21,7 @@ const TicketHelper = () => {
       <li>Responsible for passing out tickets to students that have won tickets as an award.</li>
     </ul>
     <div class='border'>
-      <img src={student5} alt='student2' class='light'></img>
+      <img src={student5} alt='student2' class='students'></img>
     </div>
   </div>
   )

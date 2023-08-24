@@ -22,7 +22,7 @@ const ErrandRunner = () => {
         <li>If the teacher needs to pick up anything, the errand runner gets it.</li>
       </ul>
       <div class='border'>
-        <img src={student3} alt='student2' class='light'></img>
+        <img src={student3} alt='student2' class='students'></img>
       </div>
     </div>
   )

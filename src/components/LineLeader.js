@@ -21,7 +21,7 @@ const LineLeader = () => {
         <li>Stands at the front of the line and leads the class wherever we go.</li>
       </ul>
       <div class='border'>
-        <img src={student1} alt='student2' class='light'></img>
+        <img src={student1} alt='student2' class='students'></img>
       </div>
       </div>
   )

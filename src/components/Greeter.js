@@ -22,7 +22,7 @@ const Greeter = () => {
           <li>In the morning the greeter stands in the doorway to greet everyone coming in the classroom door.</li>
         </ul>
         <div class='border'>
-          <img src={student7} alt='student2' class='light'></img>
+          <img src={student7} alt='student2' class='students'></img>
         </div>
     </div>
   )

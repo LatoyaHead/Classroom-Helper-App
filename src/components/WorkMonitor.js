@@ -22,7 +22,7 @@ const WorkMonitor = () => {
           <li>Uses a class list on a clipboard to check off students who have finished their work.</li>
         </ul>
         <div class='border'>
-          <img src={student4} alt='student2' class='light'></img>
+          <img src={student4} alt='student2' class='students'></img>
         </div>
       </div>
   )

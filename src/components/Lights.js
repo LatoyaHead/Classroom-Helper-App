@@ -22,7 +22,7 @@ const Lights = () => {
       <li>Turn on lights when we return to the classroom.</li>
     </ul>
     <div class='border'>
-      <img src={student8} alt='student2' class='light'></img>
+      <img src={student8} alt='student2' class='students'></img>
     </div>
   </div>
   )

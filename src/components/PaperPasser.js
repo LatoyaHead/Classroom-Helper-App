@@ -22,7 +22,7 @@ const PaperPasser = () => {
         <li>Passes out any papers you need passed out for classwork or to take home.</li>
       </ul>
       <div class='border'>
-        <img src={student6} alt='student2' class='light'></img>
+        <img src={student6} alt='student2' class='students'></img>
       </div>
     </div>
   )

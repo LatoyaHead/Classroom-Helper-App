@@ -22,7 +22,7 @@ const LineMonitor = () => {
       <li>If there are issues with the line you will walk alongside the line and keep the line straight and quiet.</li>
     </ul>
     <div class='border'>
-      <img src={student2} alt='student2' class='light'></img>
+      <img src={student2} alt='student2' class='students'></img>
     </div>
   </div>
   )
